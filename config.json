@@ -1,0 +1,55 @@
+﻿{
+    "development": {
+        "config_id": "development",
+        "app_name": "Job Queue",
+        "node_port": 4000,
+        "json_indentation": 4,
+        "database": {
+            "connectionString": "mongodb://localhost/image-job-queue",
+            "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+        },
+        "emailConfig": {
+            "apiKey": "",
+            "domain": ""
+        },
+        "AZURE_IMAGE":""
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": {
+            "connectionString": "mongodb://localhost/image-job-queue",
+            "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+        },
+        "emailConfig": {
+            "apiKey": "",
+            "domain": ""
+        },
+        "AZURE_IMAGE":""
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": {
+            "connectionString": "mongodb://localhost/image-job-queue",
+            "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+        },
+        "emailConfig": {
+            "apiKey": "",
+            "domain": ""
+        },
+        "AZURE_IMAGE":""
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": {
+            "connectionString": "mongodb://localhost/image-job-queue",
+            "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+        },
+        "emailConfig": {
+            "apiKey": "",
+            "domain": ""
+        },
+        "AZURE_IMAGE":""
+    }
+}
